@@ -53,7 +53,7 @@ st.set_page_config(
 
 class_names = ["Healthy", "Doubtful", "Minimal", "Moderate", "Severe"]
 
-model = tf.keras.models.load_model("src/models/model_Xception_ft.hdf5")
+model = tf.keras.models.load_model("xception.h5")
 target_size = (224, 224)
 
 # Grad-CAM
